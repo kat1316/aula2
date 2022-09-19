@@ -41,3 +41,40 @@ header ul li{
     align-items: center;
     text-align: center;
 }
+
+.baner{
+    margin: 30px;
+    height: 500px;
+    animation: slide 10s infinite;
+}
+
+@keyframes slide1{
+    0%,35%{
+        background-image: url(../estilos/midias/a1e9b6e4de72367d4bf9fb02c7b6e358.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+    }
+    35%,65%{
+        background-image: url(../estilos/midias/d116474221f9828898a902819c4da6e3.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+    }    
+   70%,100%{
+        background-image: url(../estilos/6f0d96748328d3d89994a57abf5ab9d8.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+    }
+
+}
+
+.local{
+    margin: 30px;
+    background-color: var(--laranja);
+    text-align: center;
+}
+iframe{
+    margin: 30px;
+}
