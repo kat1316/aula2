@@ -42,10 +42,10 @@ header ul li{
     text-align: center;
 }
 
-.baner{
+.banner{
     margin: 30px;
     height: 500px;
-    animation: slide 10s infinite;
+    animation: slide1 10s infinite;
 }
 
 @keyframes slide1{
